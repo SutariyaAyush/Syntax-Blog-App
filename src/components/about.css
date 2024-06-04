@@ -1,0 +1,13 @@
+@keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  
+  .typing-animation::after {
+    content: 'E-BloodBank';
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+    animation: typing 3s steps(1, end) 1s forwards;
+  }
